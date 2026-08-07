@@ -1,0 +1,11 @@
+# ==========================================
+# Robots.txt for Nikkirtha Website
+# ==========================================
+
+User-agent: *
+
+Allow: /
+
+Disallow:
+
+Sitemap: https://nikkirtha09.github.io/Nikkirtha-Meaning/sitemap.xml
