@@ -1,686 +1,849 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-        content="Nikkirtha (நிக்கிர்தா) - Meaning, pronunciation and linguistic interpretation of the unique name Nikkirtha.">
-
-    <meta name="keywords"
-        content="Nikkirtha, நிக்கிர்தா, Nikkirtha meaning, Nikkirtha name meaning, Nikirtha meaning">
-
-    <meta name="author" content="Nikkirtha">
-
-    <title>Nikkirtha – Meaning & Origin</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
-
-    <style>
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: "Poppins", sans-serif;
-            color: #4a3942;
-            background: #fff8fb;
-            line-height: 1.7;
-        }
-
-        /* ---------- Navigation ---------- */
-
-        nav {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            padding: 18px 8%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: rgba(255, 248, 251, 0.92);
-            backdrop-filter: blur(10px);
-            z-index: 1000;
-            border-bottom: 1px solid #f5dce7;
-        }
-
-        .logo {
-            font-family: "Cormorant Garamond", serif;
-            font-size: 27px;
-            font-weight: 700;
-            color: #a64d70;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 28px;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #654854;
-            font-size: 14px;
-            transition: 0.3s;
-        }
-
-        nav a:hover {
-            color: #b64f79;
-        }
-
-        /* ---------- Hero ---------- */
-
-        .hero {
-            min-height: 100vh;
-            padding: 140px 8% 80px;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            text-align: center;
-
-            background:
-                radial-gradient(circle at 15% 20%, #ffe7f0 0, transparent 25%),
-                radial-gradient(circle at 85% 75%, #f9dce8 0, transparent 28%),
-                #fff8fb;
-
-            position: relative;
-            overflow: hidden;
-        }
-
-        .flower {
-            position: absolute;
-            font-size: 42px;
-            opacity: 0.35;
-        }
-
-        .flower.one {
-            top: 18%;
-            left: 8%;
-        }
-
-        .flower.two {
-            top: 30%;
-            right: 10%;
-        }
-
-        .flower.three {
-            bottom: 15%;
-            left: 15%;
-        }
-
-        .flower.four {
-            bottom: 20%;
-            right: 15%;
-        }
-
-        .hero-content {
-            max-width: 850px;
-        }
-
-        .small-title {
-            color: #b45778;
-            font-size: 14px;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-            margin-bottom: 20px;
-        }
-
-        .hero h1 {
-            font-family: "Cormorant Garamond", serif;
-            font-size: clamp(65px, 11vw, 125px);
-            line-height: 0.9;
-            color: #914765;
-            margin-bottom: 15px;
-        }
-
-        .tamil-name {
-            font-family: "Noto Serif Tamil", serif;
-            font-size: 38px;
-            color: #6c4b58;
-            margin-bottom: 20px;
-        }
-
-        .meaning {
-            font-family: "Cormorant Garamond", serif;
-            font-size: clamp(28px, 4vw, 45px);
-            font-style: italic;
-            color: #704254;
-            max-width: 760px;
-            margin: 0 auto 25px;
-        }
-
-        .meaning::before {
-            content: "“";
-        }
-
-        .meaning::after {
-            content: "”";
-        }
-
-        .intro {
-            max-width: 650px;
-            margin: auto;
-            color: #806873;
-            font-size: 15px;
-        }
-
-        .scroll {
-            margin-top: 45px;
-            font-size: 12px;
-            letter-spacing: 3px;
-            color: #b45b7c;
-        }
-
-        /* ---------- Sections ---------- */
-
-        section {
-            padding: 100px 8%;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 55px;
-        }
-
-        .section-title span {
-            color: #b45778;
-            font-size: 13px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-        }
-
-        .section-title h2 {
-            font-family: "Cormorant Garamond", serif;
-            font-size: 50px;
-            color: #81445d;
-            margin-top: 8px;
-        }
-
-        /* ---------- Name Card ---------- */
-
-        .name-card {
-            max-width: 950px;
-            margin: auto;
-            padding: 60px;
-            background: #ffffff;
-            border: 1px solid #f2d9e4;
-            border-radius: 25px;
-            box-shadow: 0 20px 60px rgba(144, 76, 103, 0.08);
-        }
-
-        .name-details {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 25px;
-            text-align: center;
-        }
-
-        .detail {
-            padding: 25px;
-            background: #fff5f9;
-            border-radius: 18px;
-        }
-
-        .detail h3 {
-            font-family: "Cormorant Garamond", serif;
-            font-size: 25px;
-            color: #914765;
-            margin-bottom: 8px;
-        }
-
-        .detail p {
-            font-size: 14px;
-            color: #78616b;
-        }
-
-        /* ---------- Meaning ---------- */
-
-        .meaning-section {
-            background: #fff0f5;
-        }
-
-        .meaning-box {
-            max-width: 850px;
-            margin: auto;
-            text-align: center;
-        }
-
-        .meaning-box .big-meaning {
-            font-family: "Cormorant Garamond", serif;
-            font-size: 38px;
-            font-style: italic;
-            color: #81445d;
-            margin-bottom: 35px;
-        }
-
-        .tamil-meaning {
-            font-size: 21px;
-            color: #654854;
-            margin-bottom: 25px;
-        }
-
-        .meaning-box p {
-            color: #78616b;
-            font-size: 15px;
-        }
-
-        /* ---------- Linguistic Roots ---------- */
-
-        .roots {
-            max-width: 1000px;
-            margin: auto;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 30px;
-        }
-
-        .root-card {
-            padding: 40px;
-            background: #ffffff;
-            border: 1px solid #f2d9e4;
-            border-radius: 20px;
-        }
-
-        .root-card h3 {
-            font-family: "Cormorant Garamond", serif;
-            font-size: 30px;
-            color: #914765;
-            margin-bottom: 15px;
-        }
-
-        .sanskrit {
-            font-size: 28px;
-            color: #a54f70;
-            margin-bottom: 10px;
-        }
-
-        .root-card p {
-            font-size: 14px;
-            color: #78616b;
-        }
-
-        /* ---------- Important Note ---------- */
-
-        .note {
-            max-width: 850px;
-            margin: 60px auto 0;
-            padding: 25px 30px;
-            border-left: 4px solid #c56a8b;
-            background: #fff7fa;
-            color: #725b65;
-            font-size: 14px;
-        }
-
-        /* ---------- Quote ---------- */
-
-        .quote-section {
-            text-align: center;
-            background: #f9e4ed;
-        }
-
-        .quote {
-            max-width: 800px;
-            margin: auto;
-        }
-
-        .quote p {
-            font-family: "Cormorant Garamond", serif;
-            font-size: 43px;
-            font-style: italic;
-            color: #81445d;
-        }
-
-        .quote span {
-            display: block;
-            margin-top: 25px;
-            font-size: 13px;
-            letter-spacing: 2px;
-            color: #a05a75;
-        }
-
-        /* ---------- Footer ---------- */
-
-        footer {
-            padding: 45px 8%;
-            text-align: center;
-            background: #5e3949;
-            color: #fcebf2;
-        }
-
-        footer h3 {
-            font-family: "Cormorant Garamond", serif;
-            font-size: 30px;
-            margin-bottom: 8px;
-        }
-
-        footer p {
-            font-size: 12px;
-            opacity: 0.8;
-        }
-
-        /* ---------- Responsive ---------- */
-
-        @media (max-width: 768px) {
-
-            nav {
-                padding: 15px 5%;
-            }
-
-            nav ul {
-                display: none;
-            }
-
-            .hero {
-                padding: 130px 6% 70px;
-            }
-
-            section {
-                padding: 75px 6%;
-            }
-
-            .name-card {
-                padding: 30px 20px;
-            }
-
-            .name-details {
-                grid-template-columns: 1fr;
-            }
-
-            .roots {
-                grid-template-columns: 1fr;
-            }
-
-            .meaning-box .big-meaning {
-                font-size: 30px;
-            }
-
-            .quote p {
-                font-size: 32px;
-            }
-        }
-
-    </style>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nikkirtha | Meaning, Origin, Pronunciation & Significance</title>
+
+<meta name="description" content="Discover the meaning, origin, pronunciation and significance of the unique name Nikkirtha (நிக்கிர்தா). Learn about its linguistic roots, symbolism and interpretation.">
+
+<meta name="keywords" content="Nikkirtha, Nikkirtha meaning, Nikkirtha name meaning, Nikkirtha origin, Nikkirtha pronunciation, நிக்கிர்தா">
+
+<meta name="author" content="Nikkirtha">
+
+<meta name="robots" content="index,follow,max-image-preview:large">
+
+<meta name="googlebot" content="index,follow">
+
+<meta name="language" content="English">
+
+<meta name="theme-color" content="#f7dbe8">
+
+<meta name="revisit-after" content="7 days">
+
+<meta name="rating" content="General">
+
+<meta name="distribution" content="Global">
+
+<link rel="canonical" href="https://nikkirtha09.github.io/Nikkirtha-Meaning/">
+
+<!-- Open Graph -->
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nikkirtha09.github.io/Nikkirtha-Meaning/">
+<meta property="og:title" content="Nikkirtha | Meaning & Origin">
+<meta property="og:description" content="Explore the beautiful meaning and linguistic interpretation of the name Nikkirtha.">
+<meta property="og:image" content="images/cover.jpg">
+
+<!-- Twitter -->
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nikkirtha | Meaning & Origin">
+<meta name="twitter:description" content="Meaning and origin of the unique name Nikkirtha.">
+<meta name="twitter:image" content="images/cover.jpg">
+
+<!-- Favicons -->
+
+<link rel="icon" href="favicon.ico">
+
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<!-- Fonts -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+
+<!-- External CSS -->
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+
+<!-- Structured Data -->
+
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"WebSite",
+"name":"Nikkirtha",
+"url":"https://nikkirtha09.github.io/Nikkirtha-Meaning/",
+"description":"Official webpage explaining the meaning, origin and significance of the name Nikkirtha.",
+"inLanguage":"en",
+"author":{
+"@type":"Person",
+"name":"Nikkirtha"
+},
+"publisher":{
+"@type":"Person",
+"name":"Nikkirtha"
+}
+}
+</script>
+
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"DefinedTerm",
+"name":"Nikkirtha",
+"description":"A unique personal name interpreted as 'One who is worthy of praise and remembered with glory.'",
+"inDefinedTermSet":"Personal Names"
+}
+</script>
+
 </head>
 
 <body>
 
-    <!-- Navigation -->
+<!-- ========= PRELOADER ========= -->
 
-    <nav>
-        <div class="logo">Nikkirtha</div>
+<div id="loader">
 
-        <ul>
-            <li><a href="#meaning">Meaning</a></li>
-            <li><a href="#origin">Origin</a></li>
-            <li><a href="#interpretation">Interpretation</a></li>
-        </ul>
-    </nav>
+<div class="loader-circle"></div>
 
+<h2>Nikkirtha</h2>
 
-    <!-- Hero -->
+<p>Loading...</p>
 
-    <header class="hero">
+</div>
 
-        <div class="flower one">🌸</div>
-        <div class="flower two">🌸</div>
-        <div class="flower three">✿</div>
-        <div class="flower four">🌷</div>
+<!-- ========= BACKGROUND ========= -->
 
-        <div class="hero-content">
+<div class="bg-blur blur1"></div>
 
-            <div class="small-title">
-                A unique name with a beautiful meaning
-            </div>
+<div class="bg-blur blur2"></div>
 
-            <h1>Nikkirtha</h1>
+<div class="bg-blur blur3"></div>
 
-            <div class="tamil-name">
-                நிக்கிர்தா
-            </div>
+<div class="petals">
 
-            <div class="meaning">
-                One who is worthy of praise and remembered with glory
-            </div>
+<span>🌸</span>
+<span>🌸</span>
+<span>🌸</span>
+<span>🌸</span>
+<span>🌸</span>
+<span>🌸</span>
+<span>🌸</span>
 
-            <p class="intro">
-                Nikkirtha is a unique personal name. Its identifiable
-                linguistic connection can be associated with the Sanskrit
-                concept of <em>kīrt</em> and <em>kīrti</em> — ideas connected
-                with praise, glory, renown and good reputation.
-            </p>
+</div>
 
-            <div class="scroll">
-                ↓ DISCOVER THE NAME
-            </div>
+<header>
 
-        </div>
+<nav class="navbar">
 
-    </header>
+<div class="logo">
 
+<h2>Nikkirtha</h2>
 
-    <!-- Name -->
+</div>
 
-    <section id="meaning">
+<ul>
 
-        <div class="section-title">
+<li><a href="#home">Home</a></li>
 
-            <span>The Name</span>
+<li><a href="#meaning">Meaning</a></li>
 
-            <h2>Nikkirtha</h2>
+<li><a href="#origin">Origin</a></li>
 
-        </div>
+<li><a href="#pronunciation">Pronunciation</a></li>
 
-        <div class="name-card">
+<li><a href="#faq">FAQ</a></li>
 
-            <div class="name-details">
+<li><a href="#contact">Contact</a></li>
 
-                <div class="detail">
+</ul>
 
-                    <h3>English</h3>
+<div class="menu-btn">
 
-                    <p>Nikkirtha</p>
+☰
 
-                </div>
+</div>
 
-                <div class="detail">
+</nav>
 
-                    <h3>Tamil</h3>
+</header>
 
-                    <p>நிக்கிர்தா</p>
+<!-- ========= HERO ========= -->
 
-                </div>
+<section id="home" class="hero">
 
-                <div class="detail">
+<div class="hero-content">
 
-                    <h3>Pronunciation</h3>
+<p class="subtitle">
 
-                    <p>Nik-kir-tha</p>
+A Rare & Beautiful Name
 
-                </div>
+</p>
 
-            </div>
+<h1>
 
-        </div>
+Nikkirtha
 
-    </section>
+</h1>
 
+<h3>
 
-    <!-- Meaning -->
+நிக்கிர்தா
 
-    <section class="meaning-section">
+</h3>
 
-        <div class="section-title">
+<p class="tagline">
 
-            <span>The Meaning</span>
+One who is worthy of praise and remembered with glory.
 
-            <h2>A Name With Purpose</h2>
+</p>
 
-        </div>
+<div class="hero-buttons">
 
-        <div class="meaning-box">
+<a href="#meaning" class="btn">
 
-            <div class="big-meaning">
-                One who is worthy of praise and remembered with glory.
-            </div>
+Discover Meaning
 
-            <div class="tamil-meaning">
-                “நல்ல செயல்களால் புகழ் பெற்று,
-                என்றும் நல்ல பெயருடன் நினைவில் நிற்பவள்.”
-            </div>
+</a>
 
-            <p>
-                In a poetic interpretation, the name represents a person
-                whose qualities and actions earn the respect and appreciation
-                of others, leaving behind a good name that is remembered.
-            </p>
+<a href="#origin" class="btn-outline">
 
-        </div>
+Explore Origin
 
-    </section>
+</a>
 
+</div>
 
-    <!-- Origin -->
+</div>
 
-    <section id="origin">
+<div class="scroll-down">
 
-        <div class="section-title">
+↓
 
-            <span>Linguistic Connection</span>
+</div>
 
-            <h2>Possible Root</h2>
+</section>
 
-        </div>
+<!--              MEANING SECTION              -->
 
-        <div class="roots">
+<section id="meaning" class="section">
 
-            <div class="root-card">
+<div class="section-header">
 
-                <div class="sanskrit">
-                    कीर्ति
-                </div>
+<span>Meaning</span>
 
-                <h3>Kīrti</h3>
+<h2>What Does Nikkirtha Mean?</h2>
 
-                <p>
-                    The Sanskrit word <strong>kīrti</strong> is associated
-                    with fame, glory, renown, reputation and praise.
-                </p>
+<p>
+The name <strong>Nikkirtha</strong> symbolizes dignity, honor, respect and
+everlasting remembrance through good character and meaningful actions.
+</p>
 
-            </div>
+</div>
 
+<div class="meaning-grid">
 
-            <div class="root-card">
+<div class="card">
 
-                <div class="sanskrit">
-                    कीर्त्
-                </div>
+<div class="icon">🌸</div>
 
-                <h3>Kīrt</h3>
+<h3>Meaning</h3>
 
-                <p>
-                    The Sanskrit root <strong>kīrt</strong> is connected with
-                    ideas such as praising, celebrating, proclaiming and
-                    making something known.
-                </p>
+<p>
 
-            </div>
+One who is worthy of praise and remembered with glory.
 
-        </div>
+</p>
 
+</div>
 
-        <div class="note">
+<div class="card">
 
-            <strong>Important linguistic note:</strong>
+<div class="icon">💖</div>
 
-            Nikkirtha is an uncommon personal name, and its exact historical
-            etymology is not firmly documented in classical Tamil or Sanskrit
-            dictionaries. The meaning presented on this page is therefore a
-            thoughtful linguistic interpretation associated with the
-            <em>kīrt / kīrti</em> concept, rather than a claim that
-            “Nikkirtha” is an established classical Sanskrit word.
+<h3>Tamil Meaning</h3>
 
-        </div>
+<p>
 
-    </section>
+நல்ல செயல்களால் என்றும் நல்ல பெயருடன்
+நினைவில் நிற்பவள்.
 
+</p>
 
-    <!-- Personal Interpretation -->
+</div>
 
-    <section id="interpretation">
+<div class="card">
 
-        <div class="section-title">
+<div class="icon">✨</div>
 
-            <span>A Beautiful Interpretation</span>
+<h3>Symbolism</h3>
 
-            <h2>What Nikkirtha Represents</h2>
+<p>
 
-        </div>
+A graceful personality admired for kindness,
+integrity and wisdom.
 
-        <div class="meaning-box">
+</p>
 
-            <p style="font-size: 18px; margin-bottom: 20px;">
-                A person who strives to do good, earns respect through her
-                character and actions, and leaves behind a name worth
-                remembering.
-            </p>
+</div>
 
-            <p>
-                Not simply fame, but a good reputation built through
-                meaningful actions.
-            </p>
+</div>
 
-        </div>
+</section>
 
-    </section>
+<!--               ORIGIN SECTION              -->
 
+<section id="origin" class="section light">
 
-    <!-- Quote -->
+<div class="section-header">
 
-    <section class="quote-section">
+<span>Origin</span>
 
-        <div class="quote">
+<h2>Linguistic Interpretation</h2>
 
-            <p>
-                “Let your name be remembered not because you were famous,
-                but because you were good.”
-            </p>
+</div>
 
-            <span>
-                — The spirit behind Nikkirtha
-            </span>
+<div class="origin-container">
 
-        </div>
+<div class="origin-card">
 
-    </section>
+<h3>Possible Sanskrit Connection</h3>
 
+<h1>कीर्ति</h1>
 
-    <!-- Footer -->
+<h4>Kīrti</h4>
 
-    <footer>
+<p>
 
-        <h3>நிக்கிர்தா · Nikkirtha</h3>
+The Sanskrit word <strong>Kīrti</strong> refers to
+fame, praise, glory, honor and good reputation.
+
+</p>
+
+</div>
+
+<div class="origin-card">
+
+<h3>Root Word</h3>
+
+<h1>कीर्त्</h1>
+
+<h4>Kīrt</h4>
+
+<p>
+
+The verbal root <strong>Kīrt</strong>
+means to praise,
+celebrate and proclaim something worthy.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="note">
+
+<strong>Important Note</strong>
+
+<p>
+
+Nikkirtha is a rare personal name.
+The meaning presented on this website is a
+linguistic interpretation based on Sanskrit
+roots and is intended for educational purposes.
+
+</p>
+
+</div>
+
+</section>
+
+<!--          PRONUNCIATION SECTION            -->
+
+<section id="pronunciation" class="section">
+
+<div class="section-header">
+
+<span>Pronunciation</span>
+
+<h2>How to Pronounce</h2>
+
+</div>
+
+<div class="pronounce-box">
+
+<h1>Nik • Kir • Tha</h1>
+
+<h3>/nik-kir-tha/</h3>
+
+<p>
+
+The pronunciation is soft and elegant,
+with emphasis on the second syllable.
+
+</p>
+
+</div>
+
+</section>
+
+<!--           NAME INFORMATION                -->
+
+<section class="section light">
+
+<div class="section-header">
+
+<span>Name Details</span>
+
+<h2>Quick Information</h2>
+
+</div>
+
+<div class="info-grid">
+
+<div class="info-card">
+
+<h3>Name</h3>
+
+<p>Nikkirtha</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>Language</h3>
+
+<p>English / Tamil</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>Gender</h3>
+
+<p>Female</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>Category</h3>
+
+<p>Unique Personal Name</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>Meaning</h3>
+
+<p>Worthy of Praise</p>
+
+</div>
+
+<div class="info-card">
+
+<h3>Writing</h3>
+
+<p>நிக்கிர்தா</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!--          ABOUT THE NAME SECTION           -->
+
+<section id="about" class="section">
+
+    <div class="section-header">
+
+        <span>About</span>
+
+        <h2>Why is Nikkirtha Special?</h2>
 
         <p>
-            A unique name. A beautiful interpretation. A name to remember.
+            Every name carries a story. Nikkirtha is a rare and elegant name
+            that reflects grace, dignity, kindness and a life remembered
+            through meaningful actions.
         </p>
 
-    </footer>
+    </div>
 
+    <div class="about-grid">
+
+        <div class="about-card">
+
+            <div class="about-icon">💖</div>
+
+            <h3>Kindness</h3>
+
+            <p>
+                A heart that spreads kindness,
+                compassion and positivity wherever it goes.
+            </p>
+
+        </div>
+
+        <div class="about-card">
+
+            <div class="about-icon">🌸</div>
+
+            <h3>Grace</h3>
+
+            <p>
+                Represents elegance, confidence and inner beauty.
+            </p>
+
+        </div>
+
+        <div class="about-card">
+
+            <div class="about-icon">✨</div>
+
+            <h3>Respect</h3>
+
+            <p>
+                A person admired for good values
+                and honorable character.
+            </p>
+
+        </div>
+
+        <div class="about-card">
+
+            <div class="about-icon">🏆</div>
+
+            <h3>Legacy</h3>
+
+            <p>
+                Someone remembered not for fame,
+                but for goodness and positive influence.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--             TIMELINE SECTION              -->
+
+<section class="section light">
+
+    <div class="section-header">
+
+        <span>Journey</span>
+
+        <h2>The Meaning Journey</h2>
+
+    </div>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <div class="circle"></div>
+
+            <div class="timeline-content">
+
+                <h3>Origin</h3>
+
+                <p>
+                    Inspired by linguistic roots associated
+                    with praise, honor and glory.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="circle"></div>
+
+            <div class="timeline-content">
+
+                <h3>Interpretation</h3>
+
+                <p>
+                    A beautiful symbolic meaning
+                    developed through language and culture.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="circle"></div>
+
+            <div class="timeline-content">
+
+                <h3>Representation</h3>
+
+                <p>
+                    A person respected for kindness,
+                    wisdom and integrity.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--                 FAQ SECTION               -->
+
+<section id="faq" class="section">
+
+    <div class="section-header">
+
+        <span>FAQ</span>
+
+        <h2>Frequently Asked Questions</h2>
+
+    </div>
+
+    <div class="faq">
+
+        <details>
+
+            <summary>
+                What does Nikkirtha mean?
+            </summary>
+
+            <p>
+                Nikkirtha is interpreted as
+                "One who is worthy of praise
+                and remembered with glory."
+            </p>
+
+        </details>
+
+        <details>
+
+            <summary>
+                Is Nikkirtha a common name?
+            </summary>
+
+            <p>
+                No.
+                It is a rare and unique personal name.
+            </p>
+
+        </details>
+
+        <details>
+
+            <summary>
+                Which language is the name related to?
+            </summary>
+
+            <p>
+                The interpretation on this website is
+                associated with Sanskrit linguistic roots
+                connected with praise and glory.
+            </p>
+
+        </details>
+
+        <details>
+
+            <summary>
+                How do you pronounce Nikkirtha?
+            </summary>
+
+            <p>
+                Nik-kir-tha.
+            </p>
+
+        </details>
+
+        <details>
+
+            <summary>
+                Is this an official dictionary meaning?
+            </summary>
+
+            <p>
+                No.
+                This website presents a thoughtful
+                linguistic interpretation rather than
+                claiming it as an officially documented
+                dictionary definition.
+            </p>
+
+        </details>
+
+    </div>
+
+</section>
+
+<!--              QUOTE SECTION                -->
+
+<section class="quote-section">
+
+    <blockquote>
+
+        "Let your name be remembered,
+        not because you were famous,
+        but because you were kind."
+
+    </blockquote>
+
+    <span>
+        — The Spirit of Nikkirtha
+    </span>
+
+</section>
+
+<!--            CONTACT SECTION                -->
+
+<section id="contact" class="section">
+
+    <div class="section-header">
+
+        <span>Contact</span>
+
+        <h2>Get In Touch</h2>
+
+        <p>
+            Have suggestions or questions about the name
+            <strong>Nikkirtha</strong>? Feel free to send a message.
+        </p>
+
+    </div>
+
+    <div class="contact-container">
+
+        <form class="contact-form">
+
+            <input
+                type="text"
+                placeholder="Your Name"
+                required>
+
+            <input
+                type="email"
+                placeholder="Email Address"
+                required>
+
+            <textarea
+                rows="6"
+                placeholder="Write your message..."
+                required></textarea>
+
+            <button type="submit">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!--          SOCIAL MEDIA SECTION             -->
+
+<section class="social-section">
+
+    <h2>Connect</h2>
+
+    <p>
+
+        Share this website with your friends.
+
+    </p>
+
+    <div class="social-icons">
+
+        <a href="#">🌐</a>
+
+        <a href="#">📘</a>
+
+        <a href="#">📷</a>
+
+        <a href="#">🐦</a>
+
+    </div>
+
+</section>
+
+<!--              FOOTER                       -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <h2>Nikkirtha</h2>
+
+        <h3>நிக்கிர்தா</h3>
+
+        <p>
+
+            A unique name.
+            A meaningful interpretation.
+            A beautiful identity.
+
+        </p>
+
+        <hr>
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+
+            <a href="#meaning">Meaning</a>
+
+            <a href="#origin">Origin</a>
+
+            <a href="#pronunciation">Pronunciation</a>
+
+            <a href="#faq">FAQ</a>
+
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <p class="copyright">
+
+            © 2026 Nikkirtha.
+            All Rights Reserved.
+
+        </p>
+
+        <p class="disclaimer">
+
+            This website presents a linguistic interpretation
+            of the name <strong>Nikkirtha</strong>.
+            It is intended for educational and informational
+            purposes and does not claim an officially documented
+            historical etymology.
+
+        </p>
+
+    </div>
+
+</footer>
+
+<!--          BACK TO TOP BUTTON               -->
+
+<button id="topBtn" title="Back to Top">
+
+    ↑
+
+</button>
+
+<!--             JAVASCRIPT                    -->
+
+<script src="script.js"></script>
 
 </body>
+
 </html>
